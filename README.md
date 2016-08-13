@@ -313,7 +313,7 @@ log4j.properties：
     
     log4j.appender.appender2.driver=com.mysql.jdbc.Driver
     
-    log4j.appender.appender2.URL=jdbc:mysql://localhost:3306/jfinal_demo?useUnicode=true&characterEncoding=UTF-8
+    log4j.appender.appender2.URL=jdbc:mysql://104.160.33.34:3306/jfinal_demo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
     
     log4j.appender.appender2.user=root
     

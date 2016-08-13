@@ -18,7 +18,7 @@ public class TestRedis {
 	
 	public static void main(String[] args) {
 		
-		RedisPlugin redisPlugin = new RedisPlugin("test", "localhost");
+		RedisPlugin redisPlugin = new RedisPlugin("test", "104.160.33.34",6379);
 		redisPlugin.start();
 		
 		Redis.use("test").set("testDemo", "tdd");

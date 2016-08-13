@@ -19,7 +19,7 @@ public class TestBlog extends JFinalModelCase {
 	@Test
 	public void testFind() {
 
-		Blog blog = BlogService.blogService.findBlogById(1);
+		Blog blog = BlogService.blogService.findBlogById(6);
 		System.out.println(blog);
 	}
 

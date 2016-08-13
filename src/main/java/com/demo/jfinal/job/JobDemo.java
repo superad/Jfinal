@@ -16,7 +16,6 @@ import org.quartz.JobExecutionException;
  */
 public class JobDemo implements Job {
 
-	@Override
 	public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
 		System.out.println("JobDemo开始执行啦" + System.currentTimeMillis());
 	}

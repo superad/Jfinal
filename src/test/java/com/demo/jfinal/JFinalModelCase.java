@@ -28,9 +28,9 @@ public class JFinalModelCase {
 	/**
 	 * 数据连接地址
 	 */
-	private static final String URL = "jdbc:mysql://127.0.0.1/jfinal_demo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull";
-	private static final String USERNAME = "root";
-	private static final String PASSWORD = "root";
+	private static final String URL = "jdbc:mysql://104.160.33.34/jfinal_demo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull";
+	private static final String USERNAME = "jfinal";
+	private static final String PASSWORD = "jfinal";
 	private static final String DRIVER = "com.mysql.jdbc.Driver";
 	private static final String DATABASE_TYPE = "mysql";
 

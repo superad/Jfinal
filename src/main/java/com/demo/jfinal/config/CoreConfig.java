@@ -81,7 +81,7 @@ public class CoreConfig extends JFinalConfig {
 		
 		/** redis缓存支持根据不同模块使用缓存，目前我创建一个关于blog的缓存块 **/
 		RedisPlugin blogRedis = new RedisPlugin(BlogConst.BLOGTABLE,
-				"localhost");
+				"104.160.33.34",6379);
 		me.add(blogRedis);
 
 		/** 定时任务插件 目前配置了一个每5秒钟执行一次的定时脚本**/
