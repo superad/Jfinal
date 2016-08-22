@@ -42,7 +42,11 @@ public class CoreConfig extends JFinalConfig {
 		me.setUrlParaSeparator(Const.SYMBOLAMPERSAND);
 	}
 
+	public CoreConfig() {
+	}
+
 	/** 处理器配置 接管所有web请求，可在此层做功能性的拓展 **/
+
 	@Override
 	public void configHandler(Handlers me) {
 		DruidStatViewHandler dvh =  new DruidStatViewHandler("/druid");
